@@ -3,7 +3,14 @@ self.addEventListener('install', (e) => {
 });
 
 var cacheName = 'GinkoBus-v1';
-var icons = [];
+var contentToCache = [];
+var appShellFile=[];
+var iconsSize=["32","64","96","128","168","180","192","256","512"];
+
+for(var i=0; i<iconsSize.length; i++) {
+    contentToCache.push('icons/icon-'+iconsSize[i]+'.png');
+}
+
 
 self.addEventListener('install', (e) => {
     console.log('[Service Worker] Install');
