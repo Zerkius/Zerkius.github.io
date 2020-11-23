@@ -55,6 +55,7 @@
             "purpose":"maskable"
         }
       ],
+    "start_url": "https://zerkius.github.io/",
     "theme_color": "#CC7400",
     "background_color": "#CC3300",
     "display": "standalone"
