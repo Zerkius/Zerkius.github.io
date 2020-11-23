@@ -47,9 +47,15 @@
           "src": "icons/icon-512.png",
           "sizes": "512x512",
           "type": "image/png"
+        },
+        {
+            "src":"/icons/maskable_icon.png",
+            "type":"image/png",
+            "sizes":"274x274",
+            "purpose":"maskable"
         }
       ],
-    "background_color": "#CC3300",
-    "theme-color": "#CC7400",
+    "theme_color": "#B12A34",
+    "background_color": "#B12A34",
     "display": "standalone"
 }
