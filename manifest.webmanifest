@@ -50,6 +50,6 @@
         }
       ],
     "background_color": "#CC3300",
-    "theme_color": "#CC7400",
+    "theme-color": "#CC7400",
     "display": "standalone"
 }
