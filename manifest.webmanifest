@@ -49,5 +49,6 @@
           "type": "image/png"
         }
       ],
-    "start_url": "index.html"
+    "background_color": "#cc3300",
+    "theme_color": "#cc7400e"
 }
